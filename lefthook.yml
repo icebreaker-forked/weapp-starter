@@ -1,0 +1,13 @@
+pre-commit:
+  jobs:
+    - run: pnpm run fix
+      glob: 
+        - "*.js"
+        - "*.jsx"
+        - "*.ts"
+        - "*.tsx"
+        - "*.vue"
+        - "*.json"
+        - "*.jsonc"
+        - "*.css"
+      stage_fixed: true

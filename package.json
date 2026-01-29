@@ -1,0 +1,36 @@
+{
+  "name": "weapp-starter",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weapp Starter",
+  "author": "Visualizeit",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "dev": "weapp-vite dev",
+    "dev:open": "weapp-vite dev -o",
+    "build": "weapp-vite build",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.app.json",
+    "open": "weapp-vite open",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.12",
+    "lefthook": "^2.0.16",
+    "miniprogram-api-typings": "^5.0.0",
+    "typescript": "^5.9.3",
+    "ultracite": "^7.1.1",
+    "vue-tsc": "^3.2.4",
+    "weapp-tailwindcss": "^4.9.6",
+    "weapp-vite": "^6.4.3",
+    "wevu": "^2.1.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "lefthook"
+    ]
+  }
+}

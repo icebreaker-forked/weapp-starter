@@ -1,0 +1,10 @@
+{
+  "$schema": "https://vite.icebreaker.top/sitemap.json",
+  "desc": "Sitemap configuration. See: https://developers.weixin.qq.com/miniprogram/dev/framework/sitemap.html",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}
